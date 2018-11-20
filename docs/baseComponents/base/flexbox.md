@@ -33,7 +33,7 @@
 
 <Common-Democode title="垂直布局" description="">
   <ClientOnly>
-  <flexbox-flexbox></flexbox-flexbox>
+  <flexbox-flexbox1></flexbox-flexbox1>
   </ClientOnly>
   
   <highlight-code slot="codeText" lang="vue">
