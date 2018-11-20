@@ -42,7 +42,11 @@ module.exports = {
             "base/flexbox",
             "base/radio",
             "base/checkbox",
-            "base/select"
+            "base/select",
+            "base/tag",
+            "base/search",
+            "base/navbar",
+            "base/tabbar"
           ]
         }
         // {

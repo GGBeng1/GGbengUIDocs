@@ -9,3 +9,6 @@
 
 ### 1.2.1
 #### 增加select箭头icon
+
+### 1.2.5
+#### 增加navbar,tabbar,search,tag组件，优化展示UI

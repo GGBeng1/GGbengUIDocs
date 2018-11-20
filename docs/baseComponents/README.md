@@ -13,7 +13,9 @@
 - 适用于 移动 和 部分PC 端
 
 ## CDN
-> <font>目前可以通过 unpkg.com/ggbeng-ui 获取到最新版本的资源，在页面上引入 js 和 css 文件即可开始使用。</font>
+::: tip 提示
+目前可以通过 unpkg.com/ggbeng-ui 获取到最新版本的资源，在页面上引入 js 和 css 文件即可开始使用。
+:::
 >
 <div style='padding: 8px 16px;
     background-color: #ecf8ff;
@@ -35,7 +37,10 @@
 
 ```
 ## Hello world
-> 通过 CDN 的方式我们可以很容易地使用 GGbengUI 写出一个 Hello world 页面
+::: tip 提示
+通过 CDN 的方式我们可以很容易地使用 GGbengUI 写出一个 Hello world 页面
+:::
+
 ``` bash
 <!DOCTYPE html>
 <html>
@@ -77,7 +82,9 @@
 ```
 
 ## npm安装 
-> 全局引入 -- 在 webpack 入口文件 main.js 中如下配置：
+::: tip 提示
+全局引入 -- 在 webpack 入口文件 main.js 中如下配置：
+:::
 
 ``` bash
 # 安装
@@ -89,8 +96,9 @@ import 'ggbeng-ui/package/gui.min.css'
 # 注入到vue
 Vue.use(GGbeng)
 ```
-
-> 按需引入 -- 在 入口文件 main.js 或 组件内 中如下配置：
+::: tip 提示
+按需引入 -- 在 入口文件 main.js 或 组件内 中如下配置：
+:::
 
 ``` bash
 
@@ -104,8 +112,16 @@ components: {
 ``` 
 
 ## 组件列表
--  按钮
--  全局模态框
+- button
+- modal
+- swich
+- grid
+- icon
+- flexbox
+- radio
+- checkbox
+- select
+
 
 
 
