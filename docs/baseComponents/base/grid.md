@@ -2,9 +2,10 @@
 ---
 
 <Common-Democode title="基本用法" description="">
-    <ClientOnly>
-    <grid-grid></grid-grid>
+  <ClientOnly>
+  <grid-grid></grid-grid>
   </ClientOnly>
+  
   <highlight-code slot="codeText" lang="vue">
     <template>
       <div>

@@ -3,8 +3,9 @@
 
 <Common-Democode title="基本用法" description="">
   <ClientOnly>
-    <flexbox-flexbox></flexbox-flexbox>
+  <flexbox-flexbox></flexbox-flexbox>
   </ClientOnly>
+
   <highlight-code slot="codeText" lang="vue">
     <template>
       <div>
@@ -32,14 +33,15 @@
 
 <Common-Democode title="垂直布局" description="">
   <ClientOnly>
-    <flexbox-flexbox></flexbox-flexbox>
+  <flexbox-flexbox></flexbox-flexbox>
   </ClientOnly>
+  
   <highlight-code slot="codeText" lang="vue">
     <template>
       <div>
         <g-flexbox direction="vertical">
           <div>普通div</div>
-          <g-flexbox-item style='margin: 10px auto'>direction="vertical" 的垂直flex div</g-flexbox-item>
+          <g-flexbox-item>direction="vertical" 的垂直flex div</g-flexbox-item>
           <div>普通div</div>
         </g-flexbox>
       </div>

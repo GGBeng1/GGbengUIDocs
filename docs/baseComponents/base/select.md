@@ -3,12 +3,13 @@
 
 <Common-Democode title="基本用法" description="">
   <ClientOnly>
-    <select-select></select-select>
+  <select-select></select-select>
   </ClientOnly>
+
   <highlight-code slot="codeText" lang="vue">
     <template>
       <g-select :data="selectList" @change="selectAction" v-model="curSelected"></g-select>
-      <br/>>
+      <br/>
       <g-select right :data="selectList" v-model="curSelected"></g-select>
     </template>
     <script>

@@ -3,8 +3,9 @@
 
 <Common-Democode title="基本用法" description="">
   <ClientOnly>
-    <checkbox-checkbox></checkbox-checkbox>
+  <check-checkbox></check-checkbox>
   </ClientOnly>
+  
   <highlight-code slot="codeText" lang="vue">
     <template>
       <div>

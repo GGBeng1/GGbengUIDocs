@@ -1,5 +1,6 @@
 # Icon
 ---
-  <ClientOnly>
-    <icon-icon></icon-icon>
-  </ClientOnly>
+<ClientOnly>
+<icon-icon></icon-icon>
+</ClientOnly>
+

@@ -3,8 +3,9 @@
 
 <Common-Democode title="基本用法" description="">
   <ClientOnly>
-    <radio-radio></radio-radio>
+  <radio-radio></radio-radio>
   </ClientOnly>
+
   <highlight-code slot="codeText" lang="vue">
     <template>
       <g-radio-group v-model="radio" color="#4cd864">
@@ -26,9 +27,10 @@
 
 
 <Common-Democode title="基本用法" description="">
- <ClientOnly>
-    <radio-radio></radio-radio>
+  <ClientOnly>
+  <radio-radio1></radio-radio1>
   </ClientOnly>
+
   <highlight-code slot="codeText" lang="vue">
     <template>
       <g-radio-group v-model="radio" color="#ed3f14" hor>

@@ -3,8 +3,9 @@
 
 <Common-Democode title="基本用法" description="">
   <ClientOnly>
-    <switch-switch></switch-switch>
+  <switch-switch></switch-switch>
   </ClientOnly>
+
   <highlight-code slot="codeText" lang="vue">
     <template>
       <div>
