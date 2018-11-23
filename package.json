@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
-    "ggbeng-ui": "^1.2.5",
+    "ggbeng-ui": "^1.2.6",
     "highlight.js": "^9.12.0",
     "less-loader": "^4.1.0",
     "vue": "^2.5.16",

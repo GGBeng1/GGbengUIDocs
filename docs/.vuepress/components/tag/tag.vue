@@ -21,6 +21,7 @@ export default {
 <style scoped>
 .g__tag{
   padding-bottom: 5px;
+  margin-top: 5px;
 }
 </style>
 

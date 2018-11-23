@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style='width: 100%'>
     <g-flexbox direction="vertical" class='flex'>
       <div>普通div</div>
       <g-flexbox-item style='margin: 10px auto'>direction="vertical" 的垂直flex div</g-flexbox-item>
@@ -11,7 +11,7 @@
 .flex.g__flexbox {
 	border: 1px solid #eee;
 	font-size: 16px;
-	width: 400px;
+	width: 100%;
 }
 .flex.g__flexbox.g__flex--vertical div {
     width: 100%;

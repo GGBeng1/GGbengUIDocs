@@ -121,7 +121,10 @@ components: {
 - radio
 - checkbox
 - select
-
+- tag
+- search
+- navbar
+- tabbar
 
 
 

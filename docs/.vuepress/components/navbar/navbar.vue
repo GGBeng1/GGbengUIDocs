@@ -1,6 +1,6 @@
 <template>
-  <div style='width:665px'>
-    <g-navbar title="首页文字首页文字首页文字首页文字" bgcolor='#fff' color="#333" left-text="返回" left-icon="g__icon--left" right-text="设置" @left-action="clickLeft" @right-action="clickRight"></g-navbar>
+  <div style='width: 700px'>
+    <g-navbar title="首页文字" bgcolor='#fff' color="#333" left-text="返回" left-icon="g__icon--left" right-text="设置" @left-action="clickLeft" @right-action="clickRight" style='width: 100%'></g-navbar>
     <br>
     <g-navbar bgcolor='#fff' color="#333" left-text="" left-icon="g__icon--left" right-icon="g__icon--edit" @left-action="clickLeft" @right-action="clickRight"><img src="../../public/gg.png"></g-navbar>
     <g-navbar bgcolor='#fff' color="#333" left-text="" left-icon="g__icon--left" right-icon="g__icon--edit" @left-action="clickLeft" @right-action="clickRight" ><div><span slot="icon" class="g__icon--loading"></span>这里是HTML</div></g-navbar>

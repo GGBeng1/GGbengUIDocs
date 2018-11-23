@@ -37,6 +37,9 @@
   div {
     margin: 10px 0;
   }
+  .g__btn {
+    margin-top: 5px;
+  }
 }
 </style>
 

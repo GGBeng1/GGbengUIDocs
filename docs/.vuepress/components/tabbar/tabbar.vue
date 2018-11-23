@@ -1,7 +1,7 @@
 <template>
   <g-tabbar v-model="active">
     <g-tabbar-item icon="g__icon--home" type="link" href="" dot>首页</g-tabbar-item>
-    <g-tabbar-item icon="g__icon--mall" :href="hrefObj" badge="8" @click="routerAction">
+    <g-tabbar-item icon="g__icon--mall" :href="hrefObj" badge="8">
       <span slot="badge">8</span>商城
     </g-tabbar-item>
     <g-tabbar-item icon="g__icon--add" href="add" class="add"></g-tabbar-item>

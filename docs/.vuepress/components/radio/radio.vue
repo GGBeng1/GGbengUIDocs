@@ -21,5 +21,9 @@ export default {
 .g__radio--group .g__radio:not(:last-child):after {
   width: 50px
 }
+.g__radio--group .g__radio.horizontal .g__icon--radio-horizontal {
+  z-index: 0 !important;
+  
+}
 </style>
 
