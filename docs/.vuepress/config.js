@@ -17,7 +17,7 @@ module.exports = {
           { text: "GGbengUI", link: "https://github.com/GGBeng1/GGbengUI" },
           {
             text: "BUG提交",
-            link: "http://www.ggbeng.xyz/"
+            link: "https://www.ggbeng.xyz"
           }
         ]
       }
