@@ -12,3 +12,6 @@
 
 ### 1.2.5
 #### 增加navbar,tabbar,search,tag组件，优化展示UI
+
+### 1.2.9
+#### 优化button样式，提高数据解耦

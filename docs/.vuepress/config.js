@@ -4,6 +4,9 @@ module.exports = {
   description: "基于vue2.0开发，支持es6，具有复用性，一致性等优点", //描述
   dest: "./dist", // 设置输出目录
   port: 2333, //端口
+  head: [
+    ['link', { rel: 'shortcut icon', type: "image/x-icon", href: `/g.ico` }]
+  ],
   themeConfig: {
     //主题配置
     // 添加导航栏
