@@ -92,9 +92,10 @@ cnpm/npm install ggbeng-ui --save
 
 # 引入css
 import 'ggbeng-ui/package/gui.min.css'  
+import GGbengUI from 'ggbeng-ui'
 
 # 注入到vue
-Vue.use(GGbeng)
+Vue.use(GGbengUI)
 ```
 ::: tip 提示
 按需引入 -- 在 入口文件 main.js 或 组件内 中如下配置：
