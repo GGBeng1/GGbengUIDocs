@@ -18,7 +18,7 @@
 :::
 >
 <div style='padding: 8px 16px;
-    background-color: #ecf8ff;
+    background-color: #ecf8ff; 
     border-radius: 4px;
     border-left: 5px solid #50bfff;
     margin: 20px 0;'>
