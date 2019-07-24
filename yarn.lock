@@ -430,6 +430,11 @@ doctypes@^1.1.0:
   resolved "https://registry.yarnpkg.com/doctypes/-/doctypes-1.1.0.tgz#ea80b106a87538774e8a3a4a5afe293de489e0a9"
   integrity sha1-6oCxBqh1OHdOijpKWv4pPeSJ4Kk=
 
+dom-walk@^0.1.0:
+  version "0.1.1"
+  resolved "https://registry.npm.taobao.org/dom-walk/download/dom-walk-0.1.1.tgz#672226dc74c8f799ad35307df936aba11acd6018"
+  integrity sha1-ZyIm3HTI95mtNTB9+TaroRrNYBg=
+
 ecc-jsbn@~0.1.1:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz#3a83a904e54353287874c564b7549386849a98c9"
@@ -617,10 +622,10 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-ggbeng-ui@^1.2.8:
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/ggbeng-ui/-/ggbeng-ui-1.2.8.tgz#c478e779b8e3415e5a9f5c2c08df5480c0204a47"
-  integrity sha512-14WOvITwiz++bOOhTQNE12FBhUEXyIAsFdf/qk5dwgPDrmNkRAdvDte/1aItnhLnVLcCLAfAVPXR1rGWiIsZRg==
+ggbeng-ui@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.npm.taobao.org/ggbeng-ui/download/ggbeng-ui-1.3.0.tgz#7a58ed516dd7b27c61715b11dd9ae0da8cc096ee"
+  integrity sha1-eljtUW3XsnxhcVsR3Zrg2ozAlu4=
   dependencies:
     compilation "^0.1.5"
     postcss-import "^12.0.1"
@@ -639,6 +644,14 @@ glob@7.0.x:
     minimatch "^3.0.2"
     once "^1.3.0"
     path-is-absolute "^1.0.0"
+
+global@^4.3.2:
+  version "4.3.2"
+  resolved "https://registry.npm.taobao.org/global/download/global-4.3.2.tgz#e76989268a6c74c38908b1305b10fc0e394e9d0f"
+  integrity sha1-52mJJopsdMOJCLEwWxD8DjlOnQ8=
+  dependencies:
+    min-document "^2.19.0"
+    process "~0.5.1"
 
 graceful-fs@^4.1.2:
   version "4.1.15"
@@ -927,6 +940,13 @@ mime@^2.3.1:
   resolved "https://registry.yarnpkg.com/mime/-/mime-2.4.0.tgz#e051fd881358585f3279df333fe694da0bcffdd6"
   integrity sha512-ikBcWwyqXQSHKtciCcctu9YfPbFYZ4+gbHEmE0Q8jzcTYQg5dHCr3g2wwAZjPoJfQVXZq6KXAjpXOTf5/cjT7w==
 
+min-document@^2.19.0:
+  version "2.19.0"
+  resolved "https://registry.npm.taobao.org/min-document/download/min-document-2.19.0.tgz#7bd282e3f5842ed295bb748cdd9f1ffa2c824685"
+  integrity sha1-e9KC4/WELtKVu3SM3Z8f+iyCRoU=
+  dependencies:
+    dom-walk "^0.1.0"
+
 minimatch@^3.0.2, minimatch@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
@@ -1100,6 +1120,11 @@ process-nextick-args@~2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.0.tgz#a37d732f4271b4ab1ad070d35508e8290788ffaa"
   integrity sha512-MtEC1TqN0EU5nephaJ4rAtThHtC86dNN9qCuEhtshvpVBkAW5ZO7BASN9REnF9eoXGcRub+pFuKEpOHE+HbEMw==
+
+process@~0.5.1:
+  version "0.5.2"
+  resolved "https://registry.npm.taobao.org/process/download/process-0.5.2.tgz#1638d8a8e34c2f440a91db95ab9aeb677fc185cf"
+  integrity sha1-FjjYqONML0QKkduVq5rrZ3/Bhc8=
 
 promise@^7.0.1, promise@^7.1.1:
   version "7.3.1"
@@ -1650,8 +1675,8 @@ vuex@^2.3.1:
 
 vuexpress@^0.1.9:
   version "0.1.9"
-  resolved "https://registry.yarnpkg.com/vuexpress/-/vuexpress-0.1.9.tgz#0a34f54d886180486b5878dcf53ed24251d1f974"
-  integrity sha512-/s7xUUmc41odP1cB/cW29oSq5KFTneGBJ0Wsrh358/DCpm+FmMJZWiduL+cOdFcC4fSiF5cMXvNDfvOMpLZc2g==
+  resolved "https://registry.npm.taobao.org/vuexpress/download/vuexpress-0.1.9.tgz#0a34f54d886180486b5878dcf53ed24251d1f974"
+  integrity sha1-CjT1TYhhgEhrWHjc9T7SQlHR+XQ=
   dependencies:
     body-parser "^1.17.1"
     cookie-parser "^1.4.3"
