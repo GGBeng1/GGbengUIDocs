@@ -14,13 +14,17 @@ module.exports = {
       { text: "主页", link: "/" }, // 导航条
       { text: "组件文档", link: "/baseComponents/" },
       {
-        text: "github",
+        text: "联系",
         // 这里是下拉列表展现形式。
         items: [
           { text: "GGbengUI", link: "https://github.com/GGBeng1/GGbengUI" },
           {
             text: "BUG提交",
-            link: "https://www.ggbeng.xyz"
+            link: "http://www.ggbeng.site"
+          },
+          {
+            text: "博客",
+            link: "http://info.ggbeng.site"
           }
         ]
       }

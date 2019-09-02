@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "build": "vuepress build docs"
   },
   "dependencies": {
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
@@ -18,7 +18,6 @@
   },
   "devDependencies": {
     "less": "^3.0.2",
-    "vue-echarts": "^3.0.7",
     "vuexpress": "^0.1.9"
   }
 }
